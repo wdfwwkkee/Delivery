@@ -1,0 +1,35 @@
+.feedback {
+  padding-top: 70px;
+}
+
+.feedbackContent {
+  text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.feedbackForm {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  button {
+    grid-column: span 12;
+  }
+  grid-template-columns: repeat(12, 1fr);
+  div {
+    grid-column: span 6;
+  }
+  .textArea {
+    grid-column: span 12;
+    textarea {
+      border: 2px solid #111827;
+      border-radius: 4px;
+      width: 100%;
+      resize: none;
+      padding: 5px;
+    }
+  }
+}
