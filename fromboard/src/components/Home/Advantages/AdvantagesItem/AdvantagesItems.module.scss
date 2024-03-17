@@ -1,0 +1,18 @@
+.item {
+  grid-column: span 4;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .itemInfo {
+    max-width: 300px;
+    text-align: start;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+  .desc {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

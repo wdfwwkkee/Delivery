@@ -1,0 +1,58 @@
+.header {
+  background-color: #f9fafb;
+  padding: 50px 0px;
+}
+
+.priceList {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+  .logo a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+
+    .cost {
+      padding-right: 10px;
+      border-right: 1px solid #a78bfa;
+      text-align: end;
+      div {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    .tel {
+      padding-left: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      div {
+        font-size: 24px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    a {
+      font-weight: 700;
+    }
+  }
+}
