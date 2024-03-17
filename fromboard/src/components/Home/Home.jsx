@@ -5,6 +5,7 @@ import DeliverySection from './Delivery/DeliverySection'
 import Advantages from './Advantages/Advantages'
 import Guarantee from './Guarantee/Guarantee'
 import Title from '../UI/Title'
+import Rev from './Rev/Rev'
 const Home = () => {
   const AdvantagesItems = [
     {
@@ -130,6 +131,18 @@ const Home = () => {
       title : <Title size={18} text={"Свидетельство о регистрации в Великобритнии"} />,
       image : "/eng.png"
     }
+  ];
+  const reviewItems = [
+    {
+      id : 1,
+      text : "Я заказала последний iPhone из США через ваш сервис, и доставка прошла быстро и без каких‑либо проблем. Гарантии качества и надёжная упаковка сделали мой опыт покупки невероятно позитивным",
+      name : "Анна"
+    },
+    {
+      id : 2,
+      text : "Я уже несколько лет заказываю дизайнерскую одежду из Франции через ваш сервис, и он никогда меня не подводил. Важно иметь надёжную компанию, которая позаботится о вашем заказе и предоставит все необходимые документы для ввоза в Россию",
+      name : "Алексей"
+    }
   ]
   return (
     <div>
@@ -137,6 +150,8 @@ const Home = () => {
       <DeliverySection />
       <Advantages items={AdvantagesItems} />
       <Guarantee items={GuaranteeItems} />
+      <Rev items={reviewItems} />
+      
     </div>
   )
 }

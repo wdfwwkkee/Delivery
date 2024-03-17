@@ -1,0 +1,21 @@
+.item {
+  padding: 25px 40px;
+  border-radius: 16px;
+  background-color: #f9fafb;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .text {
+    max-width: 540px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #6B7280;
+  }
+}
