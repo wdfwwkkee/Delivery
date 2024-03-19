@@ -7,6 +7,7 @@ import Guarantee from './Guarantee/Guarantee'
 import Title from '../UI/Title'
 import Rev from './Rev/Rev'
 import Feeback from './Feedback/Feeback'
+import Footer from './Footer/Footer'
 const Home = () => {
   const AdvantagesItems = [
     {
@@ -153,6 +154,7 @@ const Home = () => {
       <Guarantee items={GuaranteeItems} />
       <Rev items={reviewItems} />
       <Feeback />
+      <Footer />
       
     </div>
   )
